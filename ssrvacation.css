@@ -1,0 +1,441 @@
+.header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+
+
+.profileBox {
+    position : absolute;
+    left: 800px;
+    top: 200px;
+    background-color: #ffffff;
+    width: 150px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameplate {
+    width: 120px;
+    height: 20px; 
+    border-radius: 20px; 
+    background: linear-gradient(to right, #e0f7fa, #b3e5fc, #81d4fa); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px; 
+    color: #ffffff; 
+    text-align: center;
+    border: none;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+.name{
+    position: absolute;
+    left: 400px;
+    top: 180px;
+}
+
+.hrrr{
+    position: absolute;
+    left: 1px;
+    top: 100px;
+}
+
+.History{
+    text-align: center; color: rgb(109, 109, 109); font-size: 42px;
+    position: absolute;
+    left: 500px;
+    top: 700px;
+}
+
+.Univer{
+    position: absolute;
+    left: 180px;
+    top: 850px;
+}
+
+.Com{
+    position: absolute;
+    left: 480px;
+    top: 850px;
+}
+
+.online{
+    position: absolute;
+    left: 780px;
+    top: 850px;
+}
+
+.Aca{
+    position: absolute;
+    left: 1080px;
+    top: 850px;
+}
+
+.What{
+    color: rgb(90, 90, 90);
+    position: absolute;
+    left: 600px;
+    top: 1450px;
+}
+
+.JS {
+    background-color: #ffffff;
+    width: 240px;
+    height: 160px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 4px 12px 50px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+    position: absolute;
+    left: 150px;
+    top: 1600px;
+  }
+  
+  .JS:hover {
+    background-color: #ffd600; 
+    transform: scale(1.1); 
+  } 
+
+.jvtext{
+    position: absolute;
+    left: 28px;
+    top: 1px;
+}
+
+.jvtext2{
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.javaimg{
+    position: absolute;
+    left:170px;
+    top: 50px;
+}
+
+.JA {
+    background-color: #ffffff;
+    width: 240px;
+    height: 160px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 4px 12px 50px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+    position: absolute;
+    left: 600px;
+    top: 1600px;
+  }
+  
+  .JA:hover {
+    background-color: #e08216; 
+    transform: scale(1.1); 
+  } 
+
+.jatext{
+    position: absolute;
+    left: 28px;
+    top: 1px;
+}
+
+.jatext2{
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.jaimg{
+    position: absolute;
+    left:170px;
+    top: 50px;
+}
+
+.Re {
+    background-color: #ffffff;
+    width: 240px;
+    height: 160px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 4px 12px 50px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+    position: absolute;
+    left: 1050px;
+    top: 1600px;
+  }
+  
+  .Re:hover {
+    background-color: #61dafc; 
+    transform: scale(1.1); 
+  } 
+
+.retext{
+    position: absolute;
+    left: 28px;
+    top: 1px;
+}
+
+.retext2{
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.reimg{
+    position: absolute;
+    width: 100px;
+    left:170px;
+    top: 80px;
+}
+
+.Ty {
+    background-color: #ffffff;
+    width: 240px;
+    height: 140px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 4px 12px 50px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+    position: absolute;
+    left: 150px;
+    top: 1900px;
+  }
+  
+  .Ty:hover {
+    background-color: #3178c6; 
+    transform: scale(1.1); 
+  } 
+
+.tytext{
+    position: absolute;
+    left: 28px;
+    top: 1px;
+}
+
+.tytext2{
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.tyimg{
+    position: absolute;
+    left:170px;
+    top: 50px;
+    width: 100px;
+}
+
+.Sb {
+    background-color: #ffffff;
+    width: 240px;
+    height: 140px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 4px 12px 50px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+    position: absolute;
+    left: 600px;
+    top: 1900px;
+  }
+  
+  .Sb:hover {
+    background-color: #8bc34a; 
+    transform: scale(1.1); 
+  } 
+
+.sbtext{
+    position: absolute;
+    left: 28px;
+    top: 1px;
+}
+
+.sbtext2{
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.sbimg{
+    position: absolute;
+    left:170px;
+    top: 50px;
+}
+
+.Gi {
+    background-color: #ffffff;
+    width: 240px;
+    height: 140px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 4px 12px 50px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+    position: absolute;
+    left: 1050px;
+    top: 1900px;
+  }
+  
+  .Gi:hover {
+    background-color: #f4511e;
+    transform: scale(1.1); 
+  } 
+
+.gitext{
+    position: absolute;
+    left: 28px;
+    top: 1px;
+}
+
+.gitext2{
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.giimg{
+    position: absolute;
+    left:170px;
+    top: 50px;
+}
+
+.in {
+    background-color: #ffffff;
+    width: 240px;
+    height: 160px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 4px 12px 50px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+    position: absolute;
+    left: 150px;
+    top: 2200px;
+  }
+  
+  .in:hover {
+    background-color: #e91e63; 
+    transform: scale(1.1); 
+  } 
+
+.intext{
+    position: absolute;
+    left: 28px;
+    top: 1px;
+}
+
+.intext2{
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.inimg{
+    position: absolute;
+    left:170px;
+    top: 50px;
+}
+
+.pa {
+    background-color: #ffffff;
+    width: 240px;
+    height: 160px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 4px 12px 50px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+    position: absolute;
+    left: 600px;
+    top: 2200px;
+  }
+  
+  .pa:hover {
+    background-color: #d80027; 
+    transform: scale(1.1); 
+  } 
+
+.patext{
+    position: absolute;
+    left: 28px;
+    top: 1px;
+}
+
+.patext2{
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.paimg{
+    position: absolute;
+    left:170px;
+    top: 50px;
+    width: 95px;
+}
+
+.en {
+    background-color: #ffffff;
+    width: 240px;
+    height: 160px;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 4px 12px 50px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+    position: absolute;
+    left: 1050px;
+    top: 2200px;
+  }
+  
+  .en:hover {
+    background-color: #0052b4; 
+    transform: scale(1.1); 
+  } 
+
+.entext{
+    position: absolute;
+    left: 28px;
+    top: 1px;
+}
+
+.entext2{
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.enimg{
+    position: absolute;
+    left:170px;
+    top: 50px;
+    width: 90px;
+}
